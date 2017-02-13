@@ -1,0 +1,26 @@
+	<div class="nav" >
+	<ul id="move">
+		<li class="le">足球现场</li>
+		<li>足球美女</li>
+		<li>足球直播</li>
+	</ul>
+</div>
+<div class="content">
+	<div class="swiper-container1">
+        <div class="swiper-wrapper">
+	            <div class="swiper-slide" >	<ion-scroll>	
+						<dl ng-repeat='item in data'>
+							<dt>
+								<img ng-src={{item.img}} alt="">
+							</dt>
+							<dd>
+								<span>{{item.title}}</span>
+							</dd>
+						</dl> 
+						</ion-scroll>
+						</div>
+				 <div class="swiper-slide">Slide 2</div>
+	             <div class="swiper-slide">Slide 3</div>
+            </div>
+    </div>
+</div>

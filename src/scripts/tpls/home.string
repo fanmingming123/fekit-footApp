@@ -1,0 +1,10 @@
+<header class="header">
+	<ul>
+		<li><i class="iconfont">&#xe790;</i></li>
+		<li><p><span ui-sref-active='bg' ui-sref='main.home.follow'>热点</span><span ui-sref-active='bg' ui-sref='main.home.hot'>关注</span></p></li>
+		<li><i class="iconfont">&#xe60c;</i></li>
+	</ul>
+</header>
+<div ui-view class="section">
+	
+</div>

@@ -1,0 +1,11 @@
+<div class='section' ui-view>
+</div>
+<footer>
+	<ul id="moves">
+		<li ui-sref-active='mark' ui-sref='main.home'><i class='iconfont'>&#xe751;</i><p>首页</p></li>
+		<li ui-sref-active='mark' ui-sref='main.font'><i class='iconfont'>&#xe752;</i><p>发现</p></li>
+		<li ui-sref-active='mark'><p><i class='iconfont'>&#xe77e;</i></p></li>
+		<li ui-sref-active='mark' ui-sref='main.myself'><i class='iconfont'>&#xe746;</i><p>我的</p></li>
+		<li ui-sref-active='mark' ui-sref='main.back'><i class='iconfont'>&#xe734;</i><p>退出</p></li>
+	</ul>
+</footer>
